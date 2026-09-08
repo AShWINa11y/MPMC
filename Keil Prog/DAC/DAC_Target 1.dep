@@ -1,0 +1,4 @@
+Dependencies for Project 'DAC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I E:\EEE\MPMC\Keil\ARM\RV31\INC -I E:\EEE\MPMC\Keil\ARM\CMSIS\Include -I E:\EEE\MPMC\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\DAC.c)(0x6A72FBC3)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I E:\EEE\MPMC\Keil\ARM\RV31\INC -I E:\EEE\MPMC\Keil\ARM\CMSIS\Include -I E:\EEE\MPMC\Keil\ARM\Inc\Philips -o "dac.o" --omf_browse "dac.crf" --depend "dac.d")
+I (E:\EEE\MPMC\Keil\ARM\Inc\Philips\LPC214x.h)(0x4F585AA4)

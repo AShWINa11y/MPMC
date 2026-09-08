@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\GCT\Sem 5\MPMC Lab\Keil Prog\DAC\DAC.uvproj
+Project File Date:  08/05/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling DAC.c...
+DAC.c(5): warning:  #951-D: return type of function "main" must be "int"
+DAC.c(22): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+"DAC.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling DAC.c...
+DAC.c(22): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+"DAC.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling DAC.c...
+DAC.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+"DAC.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+"DAC.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+"DAC.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=788 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"DAC.axf" - 0 Error(s), 0 Warning(s).

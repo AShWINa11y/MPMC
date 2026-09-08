@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork 
+-I E:\EEE\MPMC\Keil\ARM\RV31\INC 
+-I E:\EEE\MPMC\Keil\ARM\CMSIS\Include 
+-I E:\EEE\MPMC\Keil\ARM\Inc\Philips 
+-o "dac.o" --omf_browse "dac.crf" --depend "dac.d" "DAC.c"

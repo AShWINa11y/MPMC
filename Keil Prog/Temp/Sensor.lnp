@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "temp.o" "lcd.o" 
+--strict --scatter "Sensor.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Sensor.map" -o Sensor.axf

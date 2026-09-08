@@ -1,0 +1,17 @@
+	   LXI H,8200
+	   MOV B,M
+	   INX H
+	   MOV A,M
+	   DCR B
+
+LOOP:	   INX H
+	   CMP M
+	   JC AHEAD
+	   MOV A,M
+
+AHEAD:	   DCR B
+	   JNZ LOOP
+	   STA 8300
+	   HLT
+# ORG 8200
+# DB 0A,21,C3,71,6A,5B,44,AA,F5,97,D4

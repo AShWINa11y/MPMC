@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\GCT\Sem 5\MPMC Lab\Keil Prog\Temp\Sensor.uvproj
+Project File Date:  08/12/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling Temp.c...
+Temp.c(8): warning:  #223-D: function "InitializeLCD" declared implicitly
+Temp.c(9): warning:  #223-D: function "DisplayLCD" declared implicitly
+Temp.c(22): warning:  #223-D: function "LCDDelay1600" declared implicitly
+Temp.c(40): warning:  #1-D: last line of file ends without a newline
+compiling LCD.c...
+..\LCD.c(3): warning:  #9-D: nested comment is not allowed
+..\LCD.c(12): warning:  #1295-D: Deprecated declaration InitializeLCD - give arg types
+..\LCD.c(145): warning:  #177-D: variable "a" was declared but never referenced
+linking...
+Program Size: Code=2028 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"Sensor.axf" - 0 Error(s), 7 Warning(s).

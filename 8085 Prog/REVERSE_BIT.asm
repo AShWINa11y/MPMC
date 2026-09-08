@@ -1,0 +1,23 @@
+	   MVI D,08
+	   MVI B,34
+
+LOOP:	   MOV A,B
+	   RLC
+	   MOV B,A
+	   JC INCREMENT
+	   JNC DECREMENT
+
+INCREMENT:	   INR C
+	   MOV A,C
+	   RAR
+	   MOV C,A
+	   JMP RELOOP
+
+DECREMENT:	   MOV A,C
+	   RAR
+	   MOV C,A
+
+RELOOP:	   DCR D
+	   JNZ LOOP
+	   HLT
+# ORG 0000

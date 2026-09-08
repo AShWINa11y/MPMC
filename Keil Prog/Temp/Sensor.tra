@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'Sensor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"temp.o"'
+### List of Objects: adding '"lcd.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "temp.o" "lcd.o" 
+--strict --scatter "Sensor.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Sensor.map" -o Sensor.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Sensor.axf'
+### ADS-LD Command File: 'Sensor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Sensor.lnp', Handle=0x0000173C
+### Writing '.lnp' file
+### ADS-LD Command file 'Sensor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
